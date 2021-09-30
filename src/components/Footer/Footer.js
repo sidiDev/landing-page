@@ -1,8 +1,8 @@
 import React from "react";
 export default () => {
     return (
-        <footer className=" bg-linear-pink-invert pb-12">
-            <div className="mx-auto container pt-20 lg:pt-72 px-4 sm:px-6 lg:px-8">
+        <footer className="mt-12 border-t pt-3 bg-linear-pink-invert pb-4">
+            <div className="mx-auto container px-4 sm:px-6 lg:px-8">
                 <div className="text-black flex flex-col md:items-center f-f-l pt-3">
                     <h1 className="text-2xl font-black">Build. Review. Ship.</h1>
                     <div className="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
@@ -19,7 +19,7 @@ export default () => {
                     </div>
                     <div className="my-6 text-base text-color f-f-l">
                         <ul className="md:flex items-center">
-                            <li className=" md:mr-6  pt-4 lg:py-0">
+                            <li className="">
                                 <a href="#">
                                     About
                                 </a>
