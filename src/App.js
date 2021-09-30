@@ -1,11 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
+import Carousel from './components/Carousel/Carousel';
 import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header'
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Carousel />
       <section className="mt-28 px-4 sm:px-6 lg:px-8 max-w-screen-xl mx-auto">
         <div className="text-center space-y-3">
           <span className="block text-4xl font-semibold">From the blog</span>
@@ -17,6 +20,7 @@ function App() {
           <Blog />
         </div>
       </section>
+      <Footer />
     </BrowserRouter>
   );
 }
